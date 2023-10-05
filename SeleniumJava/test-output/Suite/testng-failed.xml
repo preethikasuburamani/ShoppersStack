@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tester(failed)">
+    <parameter name="Browser" value="edge"/>
+    <classes>
+      <class name="Test_Scripts.URL1">
+        <methods>
+          <include name="amazon"/>
+          <include name="BrowserSetUp"/>
+        </methods>
+      </class> <!-- Test_Scripts.URL1 -->
+      <class name="Test_Scripts.URL2">
+        <methods>
+          <include name="flipkat"/>
+          <include name="BrowserSetUp"/>
+        </methods>
+      </class> <!-- Test_Scripts.URL2 -->
+    </classes>
+  </test> <!-- Tester(failed) -->
+</suite> <!-- Failed suite [Suite] -->
